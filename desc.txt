@@ -1,0 +1,54 @@
+Configuration are never be the part of the code
+
+Challenges between frntend and backend server connectivity
+
+1>  Network call (Async Calls)
+2> JSON(Serilization and DeSerilization)
+  - Convert Object into JSON (Serilization)
+  - JSON into Object (Deserilization)
+3> Data (Object) -> HTML
+  - DOM (Document object Model) ,we have to make (Dynamic HTML)
+4> Async VS Sync
+5> JS internal Architecture
+
+
+Event Loop - reads all the code of a JS file which is stored in Queue
+two conditions occur here 1> Sync 2> Async
+CPU centric work - fast work is done by non blocking
+if a data is heavy it get stored in thread for later process and it take some time 
+
+Sync - > waiting is less and we get less tim result with time
+Async -> Possibility is promise but  it takes more time to come into the Queue
+ 
+
+promise - 3 states 1. Pending
+                   2. Fulfilled
+                   3. Rejected
+Controller is the layer Between HTML and Logics (logics) are under the servers
+controller is used for loosely coupling so that changes an be done easily in code
+
+await - it is keyword which will wait the further decision for the async data to come and then sync the data 
+await - async wait it is the fully promised data who wait till the data not get it it is fast process
+
+MVP - Minimal vibal product
+MVC - Model View Controller (it is a design pattern) - it do Segregate of functions
+
+
+HTML(document) ->  DOM(Document object model)   -> JS(object) 
+
+
+
+Basket Functionality
+A>Add to  button function then bind it with the code
+B> now add function
+
+
+
+
+objects are in memory it provide data to the memory 
+
+
+
+1> News API
+2> Music store
+3> 
