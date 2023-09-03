@@ -1,4 +1,4 @@
-import pizzaOperations from "../services/pizza-operations.js";
+import pizzaOperations from "./pizza-operations.js";
 
 async function printPizzas() {
     const allPizzas = await pizzaOperations.getPizzas();
